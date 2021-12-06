@@ -11,8 +11,6 @@ const Currencies = () => {
   const [valorDolar,setValorDolar] = useState(0)
   const [cantidadAc,setcantidadAc] = useState(1)
 
-
-  const [cambiadorEstado, setCambiadorEstado] = useState ('')
  
   const llamadaApi = async (moneda) => {
 
